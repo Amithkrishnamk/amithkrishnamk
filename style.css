@@ -1,8 +1,8 @@
 :root{
     --bg-color:#141414;
-    --secon-bg-color: #101e25;
+    --secon-bg-color: rgb(65, 65, 6);
     --text-color: #ffff;
-    --main-color: #10f7b8;
+    --main-color: yellow;
   }
   * {
     margin: 0;
@@ -256,4 +256,22 @@
 }
 .text{
     color: var(--main-color);
+}
+
+@media (max-width:460px){
+    .home{
+        display: block;
+    }
+    .social-media-icon{
+        display: inline-flex;
+        flex-direction: row;
+        padding-top: 20px;
+        margin-left: 63px;
+    }
+    .home-img img{
+        width: 46vh;
+    }
+    .btn{
+        margin-left: 84px;
+    }
 }
