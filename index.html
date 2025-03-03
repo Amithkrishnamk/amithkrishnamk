@@ -4,112 +4,413 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>amith</title>
+    <title>Amith</title>
+    <style>
+            /* Global Theme */
+            body {
+            background-color: #000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container-ab {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px;
+            background: linear-gradient(135deg, #000, #222);
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(255, 215, 0, 0.3);
+            margin: 50px;
+        }
+
+        .box-ab {
+            width: 50%;
+            text-align: left;
+            padding: 30px;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        .container-ab {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px;
+            background: linear-gradient(135deg, #000, #222);
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(255, 215, 0, 0.3);
+            margin: 50px;
+        }
+
+        .box-ab {
+            width: 50%;
+            text-align: left;
+            padding: 30px;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        .about-text h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #FFD700;
+        }
+
+        .about-text p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .about-text ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .about-text ul li {
+            font-size: 16px;
+            padding: 8px 0;
+            color: #FFD700;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background-color: #FFD700;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .contact-btn:hover {
+            background-color: #FFA500;
+        }
+
+        .about-image img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5);
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+       
+        .skill-container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            text-align: left;
+        }
+        .skill {
+            margin: 20px 0;
+        }
+        .skill-name {
+            margin-bottom: 8px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .progress-bar {
+            width: 100%;
+            background: #222;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 30px;
+            text-align: right;
+            padding-right: 10px;
+            line-height: 30px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 15px;
+            transition: width 2s ease-in-out;
+        }
+        .web-designer { background: #4caf50; }
+        .web-tester { background: #ff9800; }
+        .ui-ux { background: #2196f3; }    
+        .contact-section {
+            text-align: center;
+            padding: 50px;
+            background: #111;
+            box-shadow: 0px 10px 20px rgba(255, 215, 0, 0.3);
+            border-radius: 10px;
+            margin: 50px auto;
+            width: 50%;
+        }
+
+        .contact-section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: #FFD700;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            background: #222;
+            border: 2px solid #FFD700;
+            color: #FFD700;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #FFA500;
+            outline: none;
+            box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5);
+        }
+
+        .contact-form button {
+            background: #FFD700;
+            color: #000;
+            font-size: 18px;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .contact-form button:hover {
+            background: #FFA500;
+        }
+        .footer {
+            position: relative;
+            width: 100%;
+            background: #111;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0px -5px 15px rgba(255, 215, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .footer h2 {
+            font-size: 22px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #FFD700;
+            animation: floatText 3s ease-in-out infinite;
+        }
+
+        .footer p {
+            font-size: 14px;
+            margin-top: 8px;
+        }
+
+        /* Social Media Icons */
+        .social-icons {
+            margin: 20px 0;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #FFD700;
+            font-size: 24px;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #FFA500;
+            transform: scale(1.2);
+        }
+
+        /* Copyright */
+        .copyright {
+            font-size: 12px;
+            margin-top: 10px;
+            opacity: 0.7;
+        }
+
+        /* Floating Animation */
+        @keyframes floatText {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        /* Glowing Border Animation */
+        .footer::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 80%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #FFD700, transparent);
+            transform: translateX(-50%);
+            animation: glow 3s linear infinite;
+        }
+
+        @keyframes glow {
+            0% { width: 0; }
+            100% { width: 80%; }
+        }
+
+        </style>
 </head>
 <body>
     <header class="header">
-        <a href="" class="logo">Amith</a>
-        <i class="bi bi-list" id="menu-icon"></i>
+        <a href="" class="logo" style="color: #FFD700;">Amith</a>
+        <i class="bi bi-list" id="menu-icon" style="color: #FFD700;"></i>
         <nav class="navbar">
-          <a href="#home" class="active">home</a>
-          <a href="#about">about</a>
-          <a href="#skill">skills</a>
-          <a href="#contact">contact</a>
+          <a href="#home" class="active" style="color: #FFD700;">Home</a>
+          <a href="#about" style="color: #FFD700;">About</a>
+          <a href="#skill" style="color: #FFD700;">Skills</a>
+          <a href="#contact" style="color: #FFD700;">Contact</a>
         </nav>
-        <a href="" class="logo" id="logo2">barke<span>point</span></a>
-        </header>
-        <!--home-->
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello, Iam</h3>
-                <h1>Amith krishna.M.K</h1>
-                <h3>And im a <span class="text"></span></h3>
-                <p>web designer,ui/ux designer with chatgpt,web tester</p>
+    </header>
 
-            <a href="img/myresume__.pdf"> <button class="btn">Download CV</button></a>
-            </div>
-            <div class="social-media-icon">
-                <a href="https://www.instagram.com/_amith._.x/">
-                    <i class="bi bi-instagram" id="social-media-icon1"></i>
-                </a>
-                <a href="https://github.com/Amithkrishnamk">
-                    <i class="bi bi-github" id="social-media-icon2"></i>
-                </a>
-                <a href="#">
-                    <i class="bi bi-linkedin" id="social-media-icon3"></i>
-                </a>
-            </div>
-            <div class="home-img">
-                <img src="img/amith.jpg" alt="ic" width="200">
-            </div>
-        </section>
-        <!-- about -->
-         <section class="about" id="about">
-            <h1>ABOUT</h1>
-            <p>Welcome! I’m a passionate web designer, web tester, and UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a keen eye for detail and a user-centered approach, I strive to create seamless interfaces that not only meet but exceed user expectations.
-                 <br>
-                I leverage the latest design trends and technologies to ensure my projects are not only aesthetically pleasing but also functional and accessible. My background in testing means I prioritize quality, rigorously evaluating each design for usability and performance.
-                <br>
-                I’m also excited to integrate innovative tools like ChatGPT into my workflow, enhancing user engagement and personalizing experiences. Whether you’re looking for a fresh website design, comprehensive testing solutions, or a complete UI/UX overhaul, I’m here to bring your vision to life.
-                <br>
-                Let’s connect and create something amazing together!
-                
-                </p>
-         </section>
-        <!-- skill -->
-         <section class="skill" id="skill">
-            <h1>SKILLS</h1>
-            <p>web-designer</p>
-            <div class="container">
-                <div class="skills web-designer">
-                    <p>99%</p>
-                </div>
-            </div>
-            <p>web tester</p>
-            <div class="container">
-                <div class=" skills web-tester">
-                    <p>90%</p>
-                </div>
-            </div>
-            <p>Ui/Ux designer with chat gpt</p>
-            <div class="container">
-                <div class="skills ui-ux">
-                   <p>80%</p>
-                </div>
-            </div>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1 style="color: #FFD700;">Amith Krishna M.K</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>Creative web designer, innovative UI/UX developer, and meticulous web tester.</p>
+            <a href="img/myresume__.pdf"> <button class="btn" style="background: #FFD700; color: #000;">Download CV</button></a>
+        </div>
+    </section>
 
-         </section>
-         <!-- contact-->
-          <section class="contact" id="contact">
-            
-<div class="c-container">
-    <h1>CONTACT</h1>
-    <form action="action_page.php">
-  
-      <label for="fname">Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Email</label>
-      <input type="text" id="lname" name="email" placeholder="you email....">
-  
-  
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
-      <input type="submit" value="Submit">
-  
-    </form>
-</div>
-          </section>
-        <!--footer-->
-        <footer class="footer">
-            <div class="footer-text">
-                <p>copyright &copy; 2024 by brakepoint.All Rights Reserved </p>
+    <!-- About -->
+    <section class="container-ab" id="about">
+        <div class="box-ab about-text">
+            <h2>Creative Web Designer & UI/UX Expert</h2>
+            <p>I craft visually stunning, user-friendly websites that blend aesthetics with seamless functionality. With a strong foundation in web design, I create responsive, modern, and interactive websites tailored to enhance user engagement.</p>
+
+            <p>As a UI/UX designer, I focus on intuitive design principles, ensuring every digital experience is smooth, efficient, and visually compelling. From wireframes to high-fidelity prototypes, I bring concepts to life with a user-first approach.</p>
+
+            <p>Beyond design, I specialize in web testing, ensuring websites are fully optimized, bug-free, and meet the highest quality standards.</p>
+
+            <h3>🚀 What I Do:</h3>
+            <ul>
+                <li>✔️ Web Design (Responsive & Modern)</li>
+                <li>✔️ UI/UX Design (Prototyping, Wireframing, User Research)</li>
+                <li>✔️ Web Testing (Functionality, Performance & Usability)</li>
+                <li>✔️ Accessibility & Cross-Browser Compatibility</li>
+            </ul>
+
+            <a href="#" class="contact-btn">Let's Collaborate</a>
+        </div>
+        <div class="monitor">
+            <div class="screen">
+                <div class="code">
+    &lt;!DOCTYPE html&gt;<br>
+    &lt;html&gt;<br>
+    &nbsp;&nbsp;&lt;head&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Hello World&lt;/title&gt;<br>
+    &nbsp;&nbsp;&lt;/head&gt;<br>
+    &nbsp;&nbsp;&lt;body&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome!&lt;/h1&gt;<br>
+    &nbsp;&nbsp;&lt;/body&gt;<br>
+    &lt;/html&gt;
+                </div>
             </div>
-        </footer>
-        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-        <script src="script.js"></script>
+            <div class="stand"></div>
+            <div class="base"></div>
+        </div>
+    </section>
+<!-- Skill -->
+<section class="skill" id="skill">
+    <h2 style="font-size: 100px; margin-left: 350px;">My Skills</h2>
+    <div class="skill-container">
+        <div class="skill">
+            <div class="skill-name">Web Designer - 99%</div>
+            <div class="progress-bar">
+                <div class="progress web-designer" style="width: 0;">99%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Web Tester - 80%</div>
+            <div class="progress-bar">
+                <div class="progress web-tester" style="width: 0;">80%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">UI/UX Designer - 50%</div>
+            <div class="progress-bar">
+                <div class="progress ui-ux" style="width: 0;">50%</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2>Get In Touch</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h2>Stay Connected</h2>
+        <p>Follow me on social media for more amazing projects!</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="copyright">© 2024 | Designed by Amith Krishna M.K</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(() => {
+                document.querySelector(".web-designer").style.width = "99%";
+                document.querySelector(".web-tester").style.width = "80%";
+                document.querySelector(".ui-ux").style.width = "50%";
+            }, 500);
+        });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js">       document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(() => {
+            document.querySelector(".web-designer").style.width = "99%";
+            document.querySelector(".web-tester").style.width = "80%";
+            document.querySelector(".ui-ux").style.width = "50%";
+        }, 500);
+    });
+
+    </script>
 </body>
 </html>
