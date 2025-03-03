@@ -183,26 +183,9 @@
 .footer-text p span{
     color: red;
 }
-.container {
-    width: 100%; 
-    background-color: var(--secon-bg-color);
-    border-radius: 50px 50px 50px 50px;
-  }
-  .skills {
-    text-align: right;
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    color: black; 
-  }
-  .web-designer {width: 90%; background-color: yellow;}
-  .web-tester {width: 80%; background-color: yellow;}
-  .ui-ux {width: 65%; background-color: yellow;}
-  .skill p{
-    font-size: 40px;
-  }
-  .skill h1{
-    font-size: 40px;
-    margin-left: 40%;
+  .web{
+    background-color: var(--main-color);
+    font-size: 20px ;
   }
   .about{
     max-height: 20%;
@@ -216,6 +199,9 @@
   }
   textarea{
     background-color: transparent;
+  }
+  .skillbar{
+    border-color: var(--secon-bg-color);
   }
   label{
     font-size: 20px;
@@ -342,7 +328,7 @@
     color: var(--main-color);
 }
 
-@media (max-width:460px){
+@media (max-width:460px){}
     .home{
         display: block;
     }
@@ -374,4 +360,69 @@
     .contact h1{
         margin-left: 28%;
     }
-}
+    .monitor {
+        width: 420px;
+        height: 260px;
+        background: #222;
+        border-radius: 10px;
+        border: 8px solid #FFD700;
+        box-shadow: 0px 5px 20px rgba(255, 215, 0, 0.5);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Screen Glow Effect */
+    .screen {
+        width: 90%;
+        height: 85%;
+        background: #111;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 10px;
+        box-shadow: inset 0px 0px 20px rgba(255, 215, 0, 0.8);
+    }
+
+    /* Code Typing Effect */
+    .code {
+        color: #FFD700;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid #FFD700;
+        animation: typing 6s steps(30) infinite alternate, blink 0.5s infinite;
+    }
+
+    @keyframes typing {
+        0% { width: 0; }
+        100% { width: 100%; }
+    }
+
+    @keyframes blink {
+        50% { border-color: transparent; }
+    }
+
+    /* Monitor Stand */
+    .stand {
+        width: 80px;
+        height: 10px;
+        background: #FFD700;
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 5px;
+    }
+
+    /* Base of Stand */
+    .base {
+        width: 120px;
+        height: 15px;
+        background: #444;
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 5px;
+    }
