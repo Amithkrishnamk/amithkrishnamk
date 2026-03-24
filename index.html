@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amith Krishna MK - Web Designer & Developer specializing in Python, Java, C/C++, and Ethical Hacking with expertise in AI Prompt Engineering">
+    <meta name="keywords" content="Web Developer, Python Developer, Java Developer, Ethical Hacker, Full Stack Developer, AI Prompt Engineer">
+    <meta name="author" content="Amith Krishna MK">
     <title>Amith Krishna MK | Web Designer & Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -163,84 +166,6 @@
 
         .nav-links a:hover::after {
             width: 100%;
-        }
-
-        .theme-switcher {
-            background: none;
-            border: none;
-            color: var(--text);
-            font-size: 1.2rem;
-            cursor: pointer;
-            margin-left: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            transition: background-color 0.3s;
-        }
-
-        .theme-switcher:hover {
-            background-color: rgba(108, 99, 255, 0.1);
-        }
-
-        .theme-options {
-            position: absolute;
-            top: 100%;
-            right: 0;
-            background-color: var(--card-bg);
-            border-radius: 10px;
-            padding: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            display: none;
-            flex-direction: column;
-            min-width: 150px;
-            z-index: 1001;
-        }
-
-        .theme-options.active {
-            display: flex;
-        }
-
-        .theme-option {
-            padding: 10px 15px;
-            border: none;
-            background: none;
-            color: var(--text);
-            text-align: left;
-            cursor: pointer;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .theme-option:hover {
-            background-color: var(--primary);
-            color: white;
-        }
-
-        .theme-color {
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-        }
-
-        .theme-default .theme-color {
-            background: linear-gradient(135deg, #6c63ff, #4a44c9);
-        }
-
-        .theme-light .theme-color {
-            background: linear-gradient(135deg, #f0f0f5, #e0e0eb);
-        }
-
-        .theme-blue .theme-color {
-            background: linear-gradient(135deg, #3498db, #2980b9);
-        }
-
-        .theme-green .theme-color {
-            background: linear-gradient(135deg, #2ecc71, #27ae60);
         }
 
         .hamburger {
@@ -712,6 +637,16 @@
             font-size: 1.2rem;
         }
 
+        .contact-link {
+            text-decoration: none;
+            color: var(--text);
+            display: block;
+        }
+
+        .contact-link:hover {
+            color: var(--primary);
+        }
+
         .form-group {
             margin-bottom: 20px;
         }
@@ -846,13 +781,6 @@
                 font-size: 2.5rem;
             }
 
-            .theme-options {
-                position: fixed;
-                top: 80px;
-                right: 0;
-                width: 70%;
-                border-radius: 0;
-            }
         }
         
         @media (max-width: 576px) {
@@ -1148,32 +1076,8 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li>
-                        <button class="theme-switcher" id="themeToggle">
-                            <i class="fas fa-palette"></i>
-                        </button>
-                        <div class="theme-options" id="themeOptions">
-                            <button class="theme-option theme-default" data-theme="default">
-                                <div class="theme-color"></div>
-                                <span>Default</span>
-                            </button>
-                            <button class="theme-option theme-light" data-theme="light">
-                                <div class="theme-color"></div>
-                                <span>Light</span>
-                            </button>
-                            <button class="theme-option theme-blue" data-theme="blue">
-                                <div class="theme-color"></div>
-                                <span>Blue</span>
-                            </button>
-                            <button class="theme-option theme-green" data-theme="green">
-                                <div class="theme-color"></div>
-                                <span>Green</span>
-                            </button>
-                        </div>
-                    </li>
                 </ul>
                 <div class="hamburger">
                     <i class="fas fa-bars"></i>
@@ -1226,7 +1130,7 @@
                         </div>
                         <div class="detail-item">
                             <strong>Email:</strong>
-                            <span>amithkrishna.official@gmail.com</span>
+                            <a href="mailto:amithkrishna.official@gmail.com" style="font-size: 13px; text-decoration: none; color: #6f6f6f;">amithkrishna.official@gmail.com</a>
                         </div>
                         <div class="detail-item">
                             <strong>Age:</strong>
@@ -1267,8 +1171,8 @@
                         </div>
                     </div>
                     
-                    <a href="#contact" class="btn">Hire Me</a>
-                    <a href="#" class="btn btn-outline">Download CV</a>
+                    <a href="mailto:amithkrishna.official@gmail.com" class="btn">Hire Me</a>
+                    <a href="resume.pdf" class="btn btn-outline">Download CV</a>
                 </div>
                 <div class="about-image">
                     <div class="image-container">
@@ -1277,6 +1181,7 @@
                             <div class="overlay-content">
                                 <h4>3+ year Experience</h4>
                                 <p>Web Development & Cybersecurity</p>
+                                <p><i>working under Rumino.ad as freelancer</i></p>
                             </div>
                         </div>
                     </div>
@@ -1399,6 +1304,88 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="lightbox-nav">
+            <button class="lightbox-prev" id="lightboxPrev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="lightbox-next" id="lightboxNext">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>Some of my recent work and personal projects</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>official website of GBHSS MANJERI</h3>
+                        <p>project for the school</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JS</span>
+                            <span class="project-tag">nord.js</span>
+                            <span class="project-tag">git</span>
+                        </div>
+                        <a href="https://gbhssmanjeri.gt.tc/?i=1" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Official Website Of Chamayam Advatricement</h3>
+                        <p>website for the company</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JS</span>
+                            <span class="project-tag">git</span>
+                        </div>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>File Virus Scanner(basic)</h3>
+                        <p>a tool to scan for viruses in files</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JS</span>
+                            <span class="project-tag">python</span>
+                            <span class="project-tag">git</span>
+                        </div>
+                        <a href="https://amithkrishnamk.github.io/vulnerability-scanner/" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section class="section" id="contact">
         <div class="container">
@@ -1414,7 +1401,7 @@
                         </div>
                         <div>
                             <h3>Email</h3>
-                            <p>amithkrishna.official@gmail.com</p>
+                            <a href="mailto:amithkrishna.official@gmail.com" class="contact-link">amithkrishna.official@gmail.com</a>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -1461,292 +1448,125 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="logo">Amith<span>Kishna</span></div>
+                <div class="logo">Amith<span>Krishna</span></div>
                 <div class="social-links">
-                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/Amithkrishnamk" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/amith-krishna-mk-422a782b6/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/_ami.thhh/?hl=en" class="social-link"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 Amith Krishna MK. All Rights Reserved.</p>
+                <p>&copy; 2026 Amith Krishna MK(Rumino.ad). All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
         // Mobile Navigation Toggle
         const hamburger = document.querySelector('.hamburger');
         const navLinks = document.querySelector('.nav-links');
         
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
-        
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
             });
-        });
-        
-        // Theme Switcher
-        const themeToggle = document.getElementById('themeToggle');
-        const themeOptions = document.getElementById('themeOptions');
-        
-        themeToggle.addEventListener('click', () => {
-            themeOptions.classList.toggle('active');
-        });
-        
-        // Close theme options when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!themeToggle.contains(e.target) && !themeOptions.contains(e.target)) {
-                themeOptions.classList.remove('active');
-            }
-        });
-        
-        // Set theme
-        document.querySelectorAll('.theme-option').forEach(option => {
-            option.addEventListener('click', () => {
-                const theme = option.getAttribute('data-theme');
-                document.body.setAttribute('data-theme', theme);
-                themeOptions.classList.remove('active');
-                
-                // Save theme preference
-                localStorage.setItem('portfolio-theme', theme);
+            
+            // Close mobile menu when clicking on a link
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                });
             });
-        });
-        
-        // Load saved theme
-        const savedTheme = localStorage.getItem('portfolio-theme');
-        if (savedTheme) {
-            document.body.setAttribute('data-theme', savedTheme);
         }
+        
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
         
         // Typing Effect
         const typingText = document.querySelector('.typing-text');
-        const texts = ['Web Designer', 'Python Developer', 'Java Developer', 'Ethical Hacker', 'AI Prompt Engineer'];
-        let textIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        
-        function type() {
-            const currentText = texts[textIndex];
+        if (typingText) {
+            const texts = ['Web Designer', 'Python Developer', 'Java Developer', 'Ethical Hacker', 'AI Prompt Engineer'];
+            let textIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
             
-            if (isDeleting) {
-                typingText.textContent = currentText.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                typingText.textContent = currentText.substring(0, charIndex + 1);
-                charIndex++;
+            function type() {
+                const currentText = texts[textIndex];
+                
+                if (isDeleting) {
+                    typingText.textContent = currentText.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    typingText.textContent = currentText.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+                
+                if (!isDeleting && charIndex === currentText.length) {
+                    isDeleting = true;
+                    setTimeout(type, 2000);
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    textIndex = (textIndex + 1) % texts.length;
+                    setTimeout(type, 500);
+                } else {
+                    setTimeout(type, isDeleting ? 100 : 150);
+                }
             }
             
-            if (!isDeleting && charIndex === currentText.length) {
-                isDeleting = true;
-                setTimeout(type, 2000);
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                textIndex = (textIndex + 1) % texts.length;
-                setTimeout(type, 500);
-            } else {
-                setTimeout(type, isDeleting ? 100 : 150);
-            }
+            // Start typing effect after page load
+            setTimeout(type, 1000);
         }
         
-        // Gallery Filtering
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const galleryItems = document.querySelectorAll('.gallery-item');
+        // Form Submission Handler
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! I will get back to you soon.');
+                this.reset();
+            });
+        }
         
-        filterButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Remove active class from all buttons
-                filterButtons.forEach(btn => btn.classList.remove('active'));
-                // Add active class to clicked button
-                button.classList.add('active');
-                
-                const filter = button.getAttribute('data-filter');
-                
-                galleryItems.forEach(item => {
-                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
-                        item.style.display = 'block';
-                    } else {
-                        item.style.display = 'none';
+        // Progress Bar Animation
+        function animateProgressBars() {
+            const progressFills = document.querySelectorAll('.progress-fill');
+            progressFills.forEach(fill => {
+                const width = fill.getAttribute('data-width');
+                if (width) {
+                    fill.style.width = width + '%';
+                }
+            });
+        }
+        
+        // Intersection Observer for Progress Animation
+        const aboutSection = document.getElementById('about');
+        if (aboutSection) {
+            const observerOptions = {
+                threshold: 0.3
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateProgressBars();
+                        observer.unobserve(aboutSection);
                     }
                 });
-            });
-        });
-        
-        // Lightbox Functionality
-        const lightbox = document.getElementById('lightbox');
-        const lightboxImage = document.getElementById('lightboxImage');
-        const lightboxClose = document.getElementById('lightboxClose');
-        const lightboxPrev = document.getElementById('lightboxPrev');
-        const lightboxNext = document.getElementById('lightboxNext');
-        
-        let currentImageIndex = 0;
-        const galleryImages = Array.from(galleryItems).map(item => item.querySelector('img').src);
-        
-        // Open lightbox when gallery item is clicked
-        galleryItems.forEach((item, index) => {
-            item.addEventListener('click', () => {
-                currentImageIndex = index;
-                lightboxImage.src = galleryImages[currentImageIndex];
-                lightbox.classList.add('active');
-                document.body.style.overflow = 'hidden';
-            });
-        });
-        
-        // Close lightbox
-        lightboxClose.addEventListener('click', () => {
-            lightbox.classList.remove('active');
-            document.body.style.overflow = 'auto';
-        });
-        
-        // Navigate lightbox
-        lightboxPrev.addEventListener('click', () => {
-            currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
-            lightboxImage.src = galleryImages[currentImageIndex];
-        });
-        
-        lightboxNext.addEventListener('click', () => {
-            currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
-            lightboxImage.src = galleryImages[currentImageIndex];
-        });
-        
-        // Close lightbox with Escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
-                lightbox.classList.remove('active');
-                document.body.style.overflow = 'auto';
-            }
-        });
-        
-        // Initialize typing effect
-        document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(type, 1000);
+            }, observerOptions);
             
-            // Initialize particles.js
-            particlesJS('particles-js', {
-                particles: {
-                    number: {
-                        value: 80,
-                        density: {
-                            enable: true,
-                            value_area: 800
-                        }
-                    },
-                    color: {
-                        value: "#6c63ff"
-                    },
-                    shape: {
-                        type: "circle",
-                        stroke: {
-                            width: 0,
-                            color: "#000000"
-                        }
-                    },
-                    opacity: {
-                        value: 0.5,
-                        random: true,
-                        anim: {
-                            enable: true,
-                            speed: 1,
-                            opacity_min: 0.1,
-                            sync: false
-                        }
-                    },
-                    size: {
-                        value: 3,
-                        random: true,
-                        anim: {
-                            enable: true,
-                            speed: 2,
-                            size_min: 0.1,
-                            sync: false
-                        }
-                    },
-                    line_linked: {
-                        enable: true,
-                        distance: 150,
-                        color: "#6c63ff",
-                        opacity: 0.4,
-                        width: 1
-                    },
-                    move: {
-                        enable: true,
-                        speed: 1,
-                        direction: "none",
-                        random: true,
-                        straight: false,
-                        out_mode: "out",
-                        bounce: false
-                    }
-                },
-                interactivity: {
-                    detect_on: "canvas",
-                    events: {
-                        onhover: {
-                            enable: true,
-                            mode: "grab"
-                        },
-                        onclick: {
-                            enable: true,
-                            mode: "push"
-                        },
-                        resize: true
-                    },
-                    modes: {
-                        grab: {
-                            distance: 140,
-                            line_linked: {
-                                opacity: 1
-                            }
-                        },
-                        push: {
-                            particles_nb: 4
-                        }
-                    }
-                },
-                retina_detect: true
-            });
-        });
-        
-        // Form submission
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
-        });
-        // Progress bar animation
-function animateProgressBars() {
-    const progressFills = document.querySelectorAll('.progress-fill');
-    
-    progressFills.forEach(fill => {
-        const width = fill.getAttribute('data-width');
-        fill.style.width = width + '%';
-    });
-}
-
-// Intersection Observer for progress animation
-const aboutSection = document.getElementById('about');
-const observerOptions = {
-    threshold: 0.3
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            animateProgressBars();
-            observer.unobserve(aboutSection);
+            observer.observe(aboutSection);
         }
-    });
-}, observerOptions);
-
-if (aboutSection) {
-    observer.observe(aboutSection);
-}
     </script>
 </body>
 </html>
