@@ -1,173 +1,184 @@
 <div align="center">
 
-# 👋 Hi, I'm Amith Krishna MK
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Amith+Krishna+MK;Cybersecurity+Researcher;VAPT+Specialist;Ethical+Hacker;Web+Application+Security;Red+Team+Enthusiast;Always+Learning+Always+Hacking" alt="Typing SVG"/>
 
-### 🛡️ Cybersecurity Researcher • VAPT Specialist • Ethical Hacker
-
-*"Securing systems by thinking like an attacker."*
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-success?style=for-the-badge&logo=google-chrome)](https://amithkrishnamk.github.io/amithkrishnamk/)
-[![GitHub](https://img.shields.io/badge/GitHub-Amithkrishnamk-181717?style=for-the-badge&logo=github)](https://github.com/Amithkrishnamk)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amith%20Krishna%20MK-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/amith-krishna-mk-422a782b6/)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:amithkrishna.offical@gmail.com)
-
-![](https://komarev.com/ghpvc/?username=Amithkrishnamk&style=for-the-badge)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000,000000&height=220&section=header&text=AMITH%20KRISHNA%20MK&fontSize=45&fontColor=ffffff&animation=fadeIn"/>
 
 </div>
 
----
+# <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2F6YzQ3M2w2cDV1cWtybWR5cnA0aDRjZ3g2MXN2OG9mMXB4bWx6aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="40"> About Me
 
-# 💫 About Me
+```diff
++ Name      : Amith Krishna MK
++ Role      : Cybersecurity Researcher
++ Speciality: Vulnerability Assessment & Penetration Testing (VAPT)
++ Focus     : Offensive Security | Ethical Hacking | Security Research
+```
 
-I'm **Amith Krishna MK**, a passionate **Cybersecurity Researcher** specializing in **Vulnerability Assessment and Penetration Testing (VAPT)**, Web Application Security, Network Security, and Ethical Hacking.
-
-I enjoy discovering security vulnerabilities, developing proof-of-concept exploits, automating security assessments, and researching modern attack techniques. My goal is to help organizations build secure systems through responsible security testing and continuous learning.
-
-### 🔥 Areas of Interest
-
-- 🛡️ Vulnerability Assessment & Penetration Testing
-- 🌐 Web Application Security
-- 🔓 Ethical Hacking
-- 🔍 Security Research
-- ☁️ Cloud Security
-- 📡 Network Security
-- 📱 API Security Testing
-- 🕵️ Open Source Intelligence (OSINT)
-- ⚙️ Security Automation
-- 🧠 Capture The Flag (CTF)
+I'm a passionate cybersecurity researcher dedicated to identifying vulnerabilities before attackers do. I enjoy penetration testing, web application security, OSINT, automation, and building tools that strengthen digital security.
 
 ---
 
-# 💻 Tech Stack
+# 🔥 Current Focus
 
-### Programming Languages
+🛡 Web Application Penetration Testing
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus)
-![HTML5](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash)
+🔍 Security Research
+
+⚔ Red Team Techniques
+
+🐞 Bug Hunting
+
+☁ Cloud Security
+
+🌐 API Security
+
+🧠 Capture The Flag (CTF)
+
+⚡ Security Automation
+
+---
+
+# ⚔ Tech Arsenal
+
+### Programming
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,java,js,c,cpp,bash,html,css,linux,git,vscode"/>
+</p>
 
 ---
 
 # 🛠 Security Tools
 
-- Burp Suite
-- OWASP ZAP
-- Nmap
-- Metasploit Framework
-- SQLMap
-- Gobuster
-- ffuf
-- Nikto
-- Hydra
-- Wireshark
-- Hashcat
-- John the Ripper
-- Nessus
-- Aircrack-ng
-- Kali Linux
-- Parrot OS
+<p>
+
+<img src="https://img.shields.io/badge/Burp%20Suite-111111?style=for-the-badge&logo=burpsuite&logoColor=red"/>
+
+<img src="https://img.shields.io/badge/Nmap-111111?style=for-the-badge&logo=gnuprivacyguard&logoColor=red"/>
+
+<img src="https://img.shields.io/badge/Metasploit-111111?style=for-the-badge&logo=metasploit&logoColor=red"/>
+
+<img src="https://img.shields.io/badge/OWASP_ZAP-111111?style=for-the-badge&logo=owasp&logoColor=red"/>
+
+<img src="https://img.shields.io/badge/Wireshark-111111?style=for-the-badge&logo=wireshark&logoColor=red"/>
+
+<img src="https://img.shields.io/badge/SQLMap-111111?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Gobuster-111111?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/ffuf-111111?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Nessus-111111?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Kali_Linux-111111?style=for-the-badge&logo=kalilinux&logoColor=red"/>
+
+</p>
 
 ---
 
-# 🔬 What I Do
+# 🚀 Portfolio
 
-- Perform Web Application Penetration Testing
-- Conduct Vulnerability Assessments
-- Research Emerging Security Threats
-- Develop Security Automation Scripts
-- Build Offensive Security Tools
-- Practice Responsible Disclosure
-- Participate in CTF Challenges
+### 🌐 Website
+
+**https://amithkrishnamk.github.io/amithkrishnamk/**
 
 ---
 
-# 🚀 Featured Projects
+# 📂 Featured Projects
 
-Explore all my repositories here:
+Explore my repositories👇
 
-### 👉 https://github.com/Amithkrishnamk?tab=repositories
-
-Some highlighted categories include:
-
-- 🔍 Security Tools
-- 🌐 Web Development
-- 🤖 Python Automation
-- 🔐 Cybersecurity Labs
-- 📚 Learning Projects
+**https://github.com/Amithkrishnamk?tab=repositories**
 
 ---
 
 # 📊 GitHub Analytics
 
-![](https://github-readme-stats.vercel.app/api?username=Amithkrishnamk&theme=tokyonight&show_icons=true&count_private=true)
+<p align="center">
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Amithkrishnamk&layout=compact&theme=tokyonight)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Amithkrishnamk&show_icons=true&theme=radical&border_color=ff0000"/>
 
-![](https://streak-stats.demolab.com?user=Amithkrishnamk&theme=tokyonight)
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amithkrishnamk&layout=compact&theme=radical&border_color=ff0000"/>
+
+</p>
 
 ---
 
-# 🏆 GitHub Trophies
+# 🔥 GitHub Streak
 
-![](https://github-profile-trophy.vercel.app/?username=Amithkrishnamk&theme=tokyonight&no-frame=true&row=2&column=4)
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=Amithkrishnamk&theme=highcontrast&ring=FF0000&fire=FF0000&currStreakLabel=FF0000"/>
+
+</p>
 
 ---
 
 # 📈 Contribution Graph
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=Amithkrishnamk&theme=tokyo-night)
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Amithkrishnamk&theme=redical"/>
+
+</p>
 
 ---
 
-# 🎯 Currently Learning
+# 🏆 GitHub Trophies
 
-- Advanced Web Exploitation
-- Cloud Security
-- Active Directory Security
-- Malware Analysis
-- Reverse Engineering
-- Container Security
-- Red Team Operations
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Amithkrishnamk&theme=radical&no-frame=true&margin-w=15"/>
+
+</p>
 
 ---
 
-# 🤝 Let's Connect
+# 💻 Visitor Counter
 
-🌐 **Portfolio**
+<p align="center">
 
-https://amithkrishnamk.github.io/amithkrishnamk/
+<img src="https://komarev.com/ghpvc/?username=Amithkrishnamk&style=for-the-badge&color=red"/>
 
-🐙 **GitHub**
-
-https://github.com/Amithkrishnamk
-
-💼 **LinkedIn**
-
-https://www.linkedin.com/in/amith-krishna-mk-422a782b6/
-
-📧 **Email**
-
-amithkrishna.offical@gmail.com
+</p>
 
 ---
 
-# 💭 Favorite Quote
+# 🌎 Connect With Me
 
-> "Security is not a product, but a continuous process."
+<p align="center">
+
+<a href="https://github.com/Amithkrishnamk">
+<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=red"/>
+</a>
+
+<a href="https://www.linkedin.com/in/amith-krishna-mk-422a782b6/">
+<img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=red"/>
+</a>
+
+<a href="mailto:amithkrishna.offical@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=red"/>
+</a>
+
+<a href="https://amithkrishnamk.github.io/amithkrishnamk/">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=red"/>
+</a>
+
+</p>
+
+---
+
+# 💀 Random Hacker Quote
+
+> **"Attackers only need one weakness. Defenders must secure everything."**
 
 ---
 
 <div align="center">
 
-### ⭐ Thanks for visiting my profile!
+## ⚡ "Think Like an Attacker. Defend Like a Professional."
 
-If you like my work, consider giving a ⭐ to my repositories and connecting with me.
-
-**Happy Hacking! 🛡️**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000,8B0000&height=120&section=footer"/>
 
 </div>
