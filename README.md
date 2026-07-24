@@ -1,184 +1,189 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Amith+Krishna+MK;Cybersecurity+Researcher;VAPT+Specialist;Ethical+Hacker;Web+Application+Security;Red+Team+Enthusiast;Always+Learning+Always+Hacking" alt="Typing SVG"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,100:8B0000&height=250&section=header&text=AMITH%20KRISHNA%20MK&fontSize=48&fontColor=ffffff&animation=blinking&fontAlignY=42"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000,000000&height=220&section=header&text=AMITH%20KRISHNA%20MK&fontSize=45&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2500&pause=800&color=FF0000&center=true&vCenter=true&width=900&lines=%3E+whoami;Cybersecurity+Researcher;VAPT+Specialist;Ethical+Hacker;Offensive+Security;Web+Application+Pentester;Building+Secure+Digital+Worlds"/>
 
 </div>
 
-# <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2F6YzQ3M2w2cDV1cWtybWR5cnA0aDRjZ3g2MXN2OG9mMXB4bWx6aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="40"> About Me
+---
 
-```diff
-+ Name      : Amith Krishna MK
-+ Role      : Cybersecurity Researcher
-+ Speciality: Vulnerability Assessment & Penetration Testing (VAPT)
-+ Focus     : Offensive Security | Ethical Hacking | Security Research
+# <img src="https://media.tenor.com/0h4I4R9n0u4AAAAi/skull.gif" width="35"> root@amith:~#
+
+```bash
+> whoami
+
+Name      : Amith Krishna MK
+Role      : Cybersecurity Researcher
+Focus     : Offensive Security
+Specialty : Vulnerability Assessment & Penetration Testing
+Location  : India
+
+Mission   : Discover • Exploit • Report • Secure
 ```
 
-I'm a passionate cybersecurity researcher dedicated to identifying vulnerabilities before attackers do. I enjoy penetration testing, web application security, OSINT, automation, and building tools that strengthen digital security.
+---
+
+## <img width="25" src="https://img.icons8.com/fluency/48/terminal.png"> System Information
+
+```yaml
+Name:
+  Amith Krishna MK
+
+Occupation:
+  Cybersecurity Researcher
+
+Experience:
+  Web Application Security
+  VAPT
+  Security Research
+  Ethical Hacking
+
+Currently Learning:
+  Active Directory
+  Cloud Security
+  Malware Analysis
+  Red Team Operations
+
+Status:
+  Always Learning
+```
 
 ---
 
-# 🔥 Current Focus
+# 🩸 Attack Surface
 
-🛡 Web Application Penetration Testing
+<div align="center">
 
-🔍 Security Research
+| 🔥 Offensive Security | 🌐 Web Security | ⚡ Research | 🛡️ Defense |
+|:---------------------:|:--------------:|:----------:|:----------:|
+| VAPT | OWASP Top 10 | CVEs | Secure Coding |
+| Red Team | API Testing | PoC Development | Hardening |
+| OSINT | Bug Hunting | Threat Research | Risk Assessment |
 
-⚔ Red Team Techniques
-
-🐞 Bug Hunting
-
-☁ Cloud Security
-
-🌐 API Security
-
-🧠 Capture The Flag (CTF)
-
-⚡ Security Automation
+</div>
 
 ---
 
-# ⚔ Tech Arsenal
-
-### Programming
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,js,c,cpp,bash,html,css,linux,git,vscode"/>
-</p>
-
----
-
-# 🛠 Security Tools
-
-<p>
-
-<img src="https://img.shields.io/badge/Burp%20Suite-111111?style=for-the-badge&logo=burpsuite&logoColor=red"/>
-
-<img src="https://img.shields.io/badge/Nmap-111111?style=for-the-badge&logo=gnuprivacyguard&logoColor=red"/>
-
-<img src="https://img.shields.io/badge/Metasploit-111111?style=for-the-badge&logo=metasploit&logoColor=red"/>
-
-<img src="https://img.shields.io/badge/OWASP_ZAP-111111?style=for-the-badge&logo=owasp&logoColor=red"/>
-
-<img src="https://img.shields.io/badge/Wireshark-111111?style=for-the-badge&logo=wireshark&logoColor=red"/>
-
-<img src="https://img.shields.io/badge/SQLMap-111111?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Gobuster-111111?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/ffuf-111111?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Nessus-111111?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Kali_Linux-111111?style=for-the-badge&logo=kalilinux&logoColor=red"/>
-
-</p>
-
----
-
-# 🚀 Portfolio
-
-### 🌐 Website
-
-**https://amithkrishnamk.github.io/amithkrishnamk/**
-
----
-
-# 📂 Featured Projects
-
-Explore my repositories👇
-
-**https://github.com/Amithkrishnamk?tab=repositories**
-
----
-
-# 📊 GitHub Analytics
+# ⚙ Arsenal
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Amithkrishnamk&show_icons=true&theme=radical&border_color=ff0000"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amithkrishnamk&layout=compact&theme=radical&border_color=ff0000"/>
+<img src="https://skillicons.dev/icons?i=python,bash,java,js,c,cpp,html,css,linux,git,vscode"/>
 
 </p>
 
 ---
 
-# 🔥 GitHub Streak
+# 🛡 Security Toolkit
 
-<p align="center">
+<div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Amithkrishnamk&theme=highcontrast&ring=FF0000&fire=FF0000&currStreakLabel=FF0000"/>
+| Recon | Exploitation | Analysis | Wireless |
+|-------|--------------|----------|-----------|
+| Nmap | Burp Suite | Wireshark | Aircrack-ng |
+| Gobuster | SQLMap | Nessus | Bettercap |
+| ffuf | Metasploit | John | Hashcat |
 
-</p>
-
----
-
-# 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Amithkrishnamk&theme=redical"/>
-
-</p>
+</div>
 
 ---
 
-# 🏆 GitHub Trophies
+# 🧠 Cyber Philosophy
 
-<p align="center">
+```text
+The goal isn't to hack systems.
 
-<img src="https://github-profile-trophy.vercel.app/?username=Amithkrishnamk&theme=radical&no-frame=true&margin-w=15"/>
-
-</p>
-
----
-
-# 💻 Visitor Counter
-
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=Amithkrishnamk&style=for-the-badge&color=red"/>
-
-</p>
+The goal is to understand them deeply enough
+to make them resilient against attacks.
+```
 
 ---
 
-# 🌎 Connect With Me
+# 📊 GitHub Dashboard
 
-<p align="center">
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Amithkrishnamk&show_icons=true&theme=vision-friendly-dark&hide_border=true"/>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amithkrishnamk&layout=compact&theme=vision-friendly-dark&hide_border=true"/>
+
+</div>
+
+---
+
+# 🔥 Contribution Streak
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Amithkrishnamk&theme=highcontrast&hide_border=true&ring=ff0000&fire=ff0000"/>
+
+</div>
+
+---
+
+# 🏆 Achievements
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Amithkrishnamk&theme=onestar&column=4&margin-w=15&margin-h=15&no-frame=true"/>
+
+</div>
+
+---
+
+# 📈 Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Amithkrishnamk&bg_color=000000&color=ff0000&line=ff0000&point=ffffff&hide_border=true"/>
+
+</div>
+
+---
+
+# 🚀 Current Objectives
+
+```text
+[██████████░░░░░░] Cloud Security
+
+[█████████████░░░] Active Directory
+
+[██████████████░░] Malware Analysis
+
+[████████████████] Offensive Security
+```
+
+---
+
+# 🌐 Connect
+
+<div align="center">
+
+<a href="https://amithkrishnamk.github.io/amithkrishnamk/">
+<img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=firefoxbrowser&logoColor=ff0000"/>
+</a>
 
 <a href="https://github.com/Amithkrishnamk">
-<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=red"/>
+<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=ff0000"/>
 </a>
 
 <a href="https://www.linkedin.com/in/amith-krishna-mk-422a782b6/">
-<img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=red"/>
+<img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=ff0000"/>
 </a>
 
 <a href="mailto:amithkrishna.offical@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=red"/>
+<img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=ff0000"/>
 </a>
 
-<a href="https://amithkrishnamk.github.io/amithkrishnamk/">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=red"/>
-</a>
-
-</p>
-
----
-
-# 💀 Random Hacker Quote
-
-> **"Attackers only need one weakness. Defenders must secure everything."**
+</div>
 
 ---
 
 <div align="center">
 
-## ⚡ "Think Like an Attacker. Defend Like a Professional."
+## 💀 "Every vulnerability discovered is a lesson in building stronger security."
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000,8B0000&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,100:000000&height=150&section=footer"/>
 
 </div>
